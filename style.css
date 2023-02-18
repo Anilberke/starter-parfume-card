@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    margin-top: 150px;
+    display: flex;
+    justify-content:center;
+    
+     
+    align-items: center;
+    border-radius: 100px;
+    
+
+
+
+
+    
+   
+
+}
+
+
+
+
+
+
+
+
+.product-img img{
+    width:  280px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:15px ;
+
+
+  
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size: contain;
+    
+    
+   
+   
+
+    
+}
+.product-info-text{
+    font-family: 'Fraunces', serif;
+}
+#p321{
+    padding-top: 20px;
+    color: rgb(122, 118, 118);
+    
+}
+#p345{
+    color: rgb(29, 131, 45);
+    padding-right: 15px;
+}
+#p123{
+    padding-bottom: 15px;
+    
+}
+#p543{
+    
+ text-decoration: line-through;
+}
+#p456{
+    font-family: 'Fraunces', serif;
+    
+}
+.product-info-price{
+    font-family: 'Fraunces', serif;
+    margin-top: 55px ;
+    display: inline-flex;
+}
+.card{
+    padding-top: 15px;
+    padding-bottom: 33px;
+}
+.card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+background-color:  rgb(29, 131, 45);
+
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card-btn i {
+  margin-right: 5px;
+}
+@media (max-width: 576px) {
+  .product-img img{
+    width:  355px;
+    
+
+
+  
+}
+  
+}
+
+
+
